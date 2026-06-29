@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"d:\\\\playwright_quantium\" -Exclude \"node_modules\" | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"d:\\\\playwright_quantium\\\\tests\" -Recurse | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"d:\\\\playwright_quantium\\\\tests\" -Recurse -File | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"d:\\\\playwright_quantium\" -Exclude \"node_modules\" -Recurse -File | ForEach-Object { $_.FullName })",
+      "Skill(code-review)",
+      "Skill(code-review:*)"
+    ]
+  }
+}

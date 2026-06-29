@@ -1,0 +1,7 @@
+node_modules/
+playwright-report/
+test-results/
+tests/.auth/*.json
+.env
+explore-screenshots/
+playwright-report/
